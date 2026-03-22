@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pirata+One&display=swap');
+
+
+
+
+:root {
+
+    --main-color: #2966a8
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 62.5%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+
+}
+
+
+
+body {
+
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px var(--main-color) solid;
+    align-items: center;
+    padding: 0 3rem;
+
+
+}
+
+.logo {
+
+    width: 70px;
+
+}
+
+.logo_img {
+
+    width: 70px;
+
+}
+
+.menu_list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+.menu_item {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    background-color: var(--main-color);
+    padding: 2rem 3rem;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    position: relative;
+
+}
+
+
+
+.main_title {
+    font-size: 4rem;
+    text-align: left;
+    color: white;
+
+}
+
+.profile_pic {
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    /* transform: translateY(70px); */
+    margin-bottom: -70px;
+    
+   
+    
+
+
+
+
+}
+
+.profile_pic>img {
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 15px var(--main-color);
+    width: 30rem;
+    display: block;
+
+}
+h2{
+    text-align: center;
+}
