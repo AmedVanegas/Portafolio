@@ -299,6 +299,11 @@ footer>p {
 
 
 }
+.white{
+    margin-top: 1rem;
+    color: white;
+
+}
 
 @media (max-width: 1300px) {
     .text_half {
